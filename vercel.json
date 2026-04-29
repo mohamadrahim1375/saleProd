@@ -1,0 +1,10 @@
+
+{
+  "_comment":"ths-configuration-project",
+  "version": 2,
+  "name": "sale-product",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "trailingSlash": false
+}
